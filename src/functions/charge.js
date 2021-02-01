@@ -17,6 +17,8 @@ exports.handler = (event, context, callback) => {
     });
   }
 
+  console.log('Charging credit card ...')
+
   stripe.charges
     .create({
       amount: parseInt(data.amount),
