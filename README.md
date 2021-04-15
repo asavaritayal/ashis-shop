@@ -1,3 +1,3 @@
 ### Get started
 
-`netlify dev`
+`netlify dev` hello
